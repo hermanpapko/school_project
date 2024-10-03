@@ -5,6 +5,10 @@
     margin: 20px;                /* Отступы вокруг контейнера */
 }
 
+ #naglowek{
+     text-align: center;
+ }
+
 .button-container {
     display: flex;                /* Используем Flexbox для кнопок */
     justify-content: center;      /* Центрируем кнопки */
@@ -19,8 +23,21 @@ button {
 .bordered-box {
     border: 2px solid black;
     border-radius: 10px;
+   
+    margin: 20px auto;
+    width: 50%;
+    height: auto;
+}
+
+#dewiza {
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;           /* Центрируем блок с рамкой по горизонтали */
+    margin-top: 50px;
+}
+.prezentacja-container {
+    display: flex;
+    justify-content: space-between;
+}
+#szybka_prezentacja {
+    width: 20%;
+    margin: 0;
 }
