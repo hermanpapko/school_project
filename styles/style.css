@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;                /* Используем Flexbox */
+    justify-content: center;      /* Центрируем по горизонтали */
+    align-items: center;          /* Центрируем по вертикали */
+    margin: 20px;                /* Отступы вокруг контейнера */
+}
+
+.button-container {
+    display: flex;                /* Используем Flexbox для кнопок */
+    justify-content: center;      /* Центрируем кнопки */
+    align-items: center;          /* Центрируем кнопки по вертикали */
+    margin-left: 20px;           /* Отступ между изображением и кнопками */
+}
+button {
+    margin: 10px;            /* Устанавливаем отступы вокруг каждой кнопки */
+    padding: 10px 20px;      /* Внутренние отступы кнопок */
+}
+
+.bordered-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;           /* Центрируем блок с рамкой по горизонтали */
+}
